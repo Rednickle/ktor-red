@@ -5,8 +5,8 @@ section: Servers
 permalink: /servers/autoreload.html
 ---
 
-During development it is important to have fast feedback loop cycle. 
-Often, restarting server would take quite some time, so Ktor provides basic auto-reload facility that
+During development it is important to have a fast feedback loop cycle. 
+Often, restarting a server can take quite some time, so Ktor provides a basic auto-reload facility that
 reloads just an Application.
 
 **Table of contents:**
@@ -30,7 +30,7 @@ a list of packages that will be watched and reloaded.
     ).apply { start(wait = true) 
 }`
 
-Note that here you shouldn't use a lambda to configure the server, but to provide a method reference to your
+Note that here you shouldn't use a lambda to configure the server, but instead you should provide a method reference to your
 Application module.
 
 ```
@@ -43,12 +43,12 @@ fun Application.mymodule() {
 }
 ```
 
-If yoy try to use a lambda instead of a method reference, you will get the following error:
+If you try to use a lambda instead of a method reference, you will get the following error:
 ```
 Exception in thread "main" java.lang.RuntimeException: Module function provided as lambda cannot be unlinked for reload
 ```
 
-To fix this error, you just have to extract your lambda body to an Application extension method (module) just like this:
+To fix this error, all you have to do is extract your lambda body to an Application extension method (module) just like this:
 
 Code that **won't** work:
 ```
@@ -81,10 +81,10 @@ fun Application.mymodule() {
 <a id="configuration-file"></a>
 ## Using configuration file
 
-When using a configuration file, for example with a [`DevelopmentEngine`](/servers/engine.html) to either run
-from the command line or hosted within another server: 
+When using a configuration file, for example with a [`DevelopmentEngine`](/servers/engine.html), to either run
+from the command line or from a host within another server: 
 
-To enable this feature, add `watch` keys to `ktor.deployment` configuration. 
+To enable this feature, add `watch` keys to the `ktor.deployment` configuration. 
 
 `watch` - Array of class path entries that should be watched and automatically reloaded.
 
@@ -101,10 +101,10 @@ ktor {
 
 For now watch keys are just strings that are matched with `contains` against classpath entries of the loaded 
 application, such as a jar name or a project directory name. 
-These classes are then loaded with special `ClassLoader` that is recycled when change is detected.
+These classes are then loaded with a special `ClassLoader` that is recycled when a change is detected.
 
 **Note:** `ktor-server-core` classes are specifically excluded from auto-reloading, so if you are working on something in ktor itself, 
-don't expect it to be reload automatically. It can't work because core classes are loaded before auto-reload machinery kicks in. 
+don't expect it to be reload automatically. It won't work because core classes are loaded before the auto-reload mechanism kicks in. 
 The exclusion can potentially be smaller, but it's hard to analyse all the transitive closure of types loaded during
 startup.
 
@@ -166,4 +166,4 @@ While using intelliJ you can run `Build -> Build Project` to trigger a recompila
 
 Try changing the respodText String, trigger a compilation and run a new request in your browser to the see the changes.
 
-Note that it is also possible to watch for sources using gradle, and automatically trigger a Kotlin compilation. 
+Note that it is also possible to watch for sources using gradle, and then to automatically trigger a Kotlin compilation. 
