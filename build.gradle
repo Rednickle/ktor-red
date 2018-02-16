@@ -1,0 +1,25 @@
+apply plugin: 'idea'
+
+task build(type: Exec) {
+    commandLine 'docker', 'build', '-t', 'ktor-io', project.rootDir
+}
+
+task stop() {
+    doLast {
+        def containerId = "docker ps --filter ancestor=ktor-io --format={{.ID}}".execute().text.trim()
+        def stop = "docker stop $containerId".execute().text
+    }
+}
+
+task serve(type: Exec, dependsOn: stop) {
+    commandLine 'docker', 'run', '-v', "${project.rootDir}:/usr/src/app", '-p', '4000:4000', '-t', 'ktor-io', 'serve', '-H', '0.0.0.0'
+}
+
+task run(dependsOn: serve) {
+}
+
+idea {
+    module {
+        excludeDirs = [file(".gradle"), file(".idea"), file("_site")]
+    }
+}
