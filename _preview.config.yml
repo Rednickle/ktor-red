@@ -1,0 +1,5 @@
+theme: jetbrains-oss-jekyll-theme
+
+# Serving
+host: 0.0.0.0 # because in some cases localhost didn't work
+port: 4000
