@@ -1,3 +1,14 @@
+remote_theme: JetBrains/oss-site-jekyll-theme
+
+# Uncomment for local Docker preview
+#theme: jetbrains-oss-jekyll-theme
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-redirect-from
+
+url: https://ktor.io
+
 repository: ktorio/ktorio.github.io
 encoding: utf-8
 output: web
@@ -11,19 +22,9 @@ ktor_version: 0.9.2
 ktor_version_eap: 0.9.2
 kotlin_version: 1.2.40
 
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 github_editme_path: ktorio/ktorio.github.io/edit/master/
-
-# if you have google-analytics ID, put it in. if not, edit this value to blank.
 google_analytics: UA-47631155-3
 
-# the preview server used. Leave as is.
-host: 127.0.0.1
-
-# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
-port: 4000
-
-# these are the files and directories that jekyll will exclude from the build
 exclude:
   - .idea
   - .gitignore
@@ -34,7 +35,6 @@ exclude:
 # library used for syntax highlighting
 highlighter: rouge
 
-# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 markdown: kramdown
 kramdown:
  input: GFM
@@ -45,17 +45,9 @@ kramdown:
  smart_quotes: lsquo,rsquo,ldquo,rdquo
  syntax_highlighter: rouge
 
-plugins:
-  - jekyll-redirect-from
-
-whitelist:
-  - jekyll-redirect-from
-
-# these are defaults used for the frontmatter for these file types
 defaults:
   -
     scope:
       path: ""
-      type: "pages"
     values:
-      layout: "page"
+      layout: "docs"
