@@ -1,7 +1,7 @@
 remote_theme: JetBrains/oss-site-jekyll-theme
 
 project_name: 'Ktor'
-header_logo_url: 'assets/images/ktor_mark.svg'
+header_logo_url: 'assets/images/ktor_logo_white.svg'
 render_toc_on_docs_layout: true
 search: true
 
