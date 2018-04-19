@@ -1,18 +1,14 @@
 ---
 title: Application
 caption: Creating Your First Application
-section: Quick Start
+category: quickstart
+toc: true
 permalink: /quickstart/application.html
 priority: 0
 ---
 
 This tutorial will help guide you through the steps needed to create a simple self-hosted Ktor server application that responds to HTTP requests with `Hello, World!`.
 Ktor applications can be built using common build systems such as [Maven](https://kotlinlang.org/docs/reference/using-maven.html) or [Gradle](https://kotlinlang.org/docs/reference/using-gradle.html).
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## Including the right dependencies
 {: #dependencies }

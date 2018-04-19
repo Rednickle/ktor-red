@@ -1,6 +1,7 @@
 ---
-title: Testing 
-section: Servers
+title: Testing
+category: servers
+toc: true
 permalink: /servers/testing.html
 caption: Testing Server Applications 
 priority: 1100
@@ -11,11 +12,6 @@ redirect_from:
 Ktor is designed to allow the creation of applications that are easily testable. And of course,
 Ktor infrastructure itself is well tested with unit, integration, and stress tests.
 In this section, you will learn how to test your applications. 
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## TestEngine
 

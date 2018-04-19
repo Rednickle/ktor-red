@@ -1,7 +1,8 @@
 ---
 title: Static Content
 caption: Serving Static Content   
-section: Features
+category: features
+toc: false
 permalink: /features/static-content.html
 feature:
     artifact: io.ktor:ktor-server-core:$ktor_version

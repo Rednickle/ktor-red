@@ -1,6 +1,7 @@
 ---
 title: Clients
-section: Clients
+category: clients
+toc: false
 permalink: /clients/index.html
 caption: Clients
 priority: -1 

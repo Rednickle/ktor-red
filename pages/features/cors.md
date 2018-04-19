@@ -1,7 +1,8 @@
 ---
 title: CORS
 caption: Enable Cross-Origin Resource Sharing (CORS) 
-section: Features
+category: features
+toc: false
 permalink: /features/cors.html
 feature:
     artifact: io.ktor:ktor-server-core:$ktor_version

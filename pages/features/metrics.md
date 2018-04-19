@@ -1,7 +1,8 @@
 ---
 title: Metrics
 caption: Metrics
-section: Features
+category: features
+toc: false
 permalink: /features/metrics.html
 feature:
     artifact: io.ktor:ktor-metrics:$ktor_version

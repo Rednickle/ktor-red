@@ -1,7 +1,8 @@
 ---
 title: Authentication
 caption: Developing Custom Authentication
-section: Advanced
+category: advanced
+toc: false
 permalink: /advanced/authentication.html
 ---
 

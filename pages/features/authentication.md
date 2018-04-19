@@ -1,7 +1,8 @@
 ---
 title: Authentication
 caption: Authenticating Clients  
-section: Features
+category: features
+toc: true  
 permalink: /features/authentication.html
 subsection_tag: Authentication
 keywords: oauth authentication basic authentication form authentication digest authentication ldap authentication jwt authentication 
@@ -17,11 +18,6 @@ It supports mechanisms to read *credentials*, and to authenticate *principals*.
 
 It can be used in some cases along with the [sessions feature](/features/sessions.html)
 to keep the login information between requests.
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 {% include feature.html %}
 

@@ -1,7 +1,8 @@
 ---
 title: Building Ktor
 caption: Building Ktor From Source  
-section: Advanced
+category: advanced
+toc: false
 keywords: git compiling compile ktor from source
 permalink: /advanced/building-from-source.html
 ---

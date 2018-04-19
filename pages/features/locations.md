@@ -1,7 +1,8 @@
 ---
 title: Locations
 caption: Type-safe Routing   
-section: Features
+category: features
+toc: true
 permalink: /features/locations.html
 feature:
     artifact: io.ktor:ktor-locations:$ktor_version
@@ -15,11 +16,6 @@ constructing URLs and reading the parameters.
 
 Locations are an experimental feature.
 {: .note.experimental}
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 {% include feature.html %}
 

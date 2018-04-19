@@ -1,7 +1,8 @@
 ---
 title: Jackson
 caption: JSON support using Jackson
-section: Features
+category: features
+toc: false
 permalink: /features/jackson.html
 feature:
     artifact: io.ktor:ktor-jackson:$ktor_version

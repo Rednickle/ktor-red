@@ -1,7 +1,8 @@
 ---
 title: WebSockets
 caption: WebSockets
-section: Features
+category: features
+toc: true
 permalink: /features/websockets.html
 feature:
     artifact: io.ktor:ktor-websockets:$ktor_version
@@ -15,11 +16,6 @@ Each message from this channel is called Frame: a frame can be a text or binary 
 or a close or ping/pong message. Frames can be marked as incomplete or final.
 
 {% include feature.html %}
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## Installing
 {: #installing}

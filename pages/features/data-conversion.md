@@ -1,7 +1,8 @@
 ---
 title: Data Conversion
 caption: Data Conversion
-section: Features
+category: features
+toc: true
 permalink: /features/data-conversion.html
 feature:
     artifact: io.ktor:ktor-server-core:$ktor_version
@@ -15,11 +16,6 @@ By default, it handles primitive types and enums, but it can also be configured 
 If you are using the [Locations feature](/features/locations.html) and want to support
 custom types as part of its parameters, you can add new custom converters with this
 service.
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 {% include feature.html %}
 

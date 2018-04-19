@@ -1,7 +1,8 @@
 ---
 title: Quick Start
 caption: QuickStart
-section: Quick Start
+category: quickstart
+toc: true
 permalink: /quickstart/index.html
 priority: -1
 ---
@@ -20,11 +21,6 @@ environments, and client facilities to native and JavaScript.
 Ktor embraces the strongly typed nature of the Kotlin programming language and provides [strongly typed end-points (Locations)](/features/locations.html) and
 the ability to exchange data with classes shared across platforms.
 {:/comment}
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 {::comment}
 ## start.ktor.io

@@ -2,7 +2,8 @@
 title: Configuration
 caption: Configuring the Server
 keywords: hocon json config DevelopmentEngine embeddedServer switches cli command line environment variables ports application modules ssl host bind application.conf mainClassName jetty netty tomcat cio
-section: Servers
+category: servers
+toc: true
 permalink: /servers/configuration.html
 priority: 200
 ---
@@ -16,11 +17,6 @@ In this case, you configure the server engine to use with the `mainClassName` po
 
 Ktor also uses a set of lambdas with a typed DSL (Domain Specific Language) to configure the application,
 and to configure the server engine when using `embeddedServer`.
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## The HOCON file
 {: #hocon-file}

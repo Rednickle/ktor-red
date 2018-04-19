@@ -1,18 +1,14 @@
 ---
 title: Gradle
 caption: Setting up a Gradle Build
-section: Quick Start
+category: quickstart
+toc: true
 permalink: /quickstart/gradle.html
 priority: 0
 ---
 
 In this guide, we will show you how to create a `build.gradle` file
 and how to configure it to support Ktor.
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## Basic Kotlin `build.gradle` file (without Ktor)
 {: #initial }

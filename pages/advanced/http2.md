@@ -1,7 +1,8 @@
 ---
 title: HTTP/2
 caption: Configure HTTP/2 in Different Application Engines
-section: Advanced
+category: advanced
+toc: false
 permalink: /advanced/http2.html
 ---
 

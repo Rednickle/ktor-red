@@ -1,7 +1,8 @@
 ---
 title: Deploy
-section: Servers
+category: servers
 permalink: /servers/deploy.html
+toc: true
 keywords: google-appengine-standard jetty-embedded jetty-war netty tomcat-war heroku nginx war fat-jar docker packing proguard
 caption: Deployment 
 priority: 300
@@ -12,11 +13,6 @@ priority: 300
 Once you are ready with your application, you will probably want to put it somewhere.
 
 In this page, you will learn how to deploy your application to several providers and containers. 
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## Packing
 

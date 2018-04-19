@@ -1,6 +1,7 @@
 ---
 title: Pipeline
-section: Advanced
+category: advanced
+toc: false
 permalink: /advanced/pipeline.html
 caption: Internal Pipeline Machinery
 ---
@@ -41,7 +42,4 @@ Pipelines are being merged when there are different points where interceptors ca
 pipelines that can be intercepted on the application level, on call level, or per route; before we execute a response
 pipeline we merge them all.   
 
-
-
 See `PipelineTest` for examples.
-

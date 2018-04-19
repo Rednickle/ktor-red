@@ -1,7 +1,9 @@
 ---
 title: Requests
 caption: Handling HTTP Requests  
-section: Servers
+category: servers
+toc: true
+keywords: multipart receiving
 permalink: /servers/requests.html
 keywords: multipart receiving
 priority: 800
@@ -12,11 +14,6 @@ get a context with an [ApplicationCall](/servers/application.html#applicationcal
 That `call` contains a property called `request` that includes information about the request.
 
 Also, the call itself has some useful convenience properties and methods that rely on the request.
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## Context
 {: #context}

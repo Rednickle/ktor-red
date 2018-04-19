@@ -1,7 +1,8 @@
 ---
 title: Structure
 caption: Building Complex Servers 
-section: Servers
+category: servers
+toc: true
 permalink: /servers/structure.html
 keywords: routing, routes, structuring, growing, dependency injection, guice, external configuration, 
 priority: 1000
@@ -10,11 +11,6 @@ priority: 1000
 Depending on the complexity of the code of your server, you might want to structure your code
 one way or another. This page proposes some strategies to structure your code according to its
 complexity, adapting to its growth, while keeping it as simple as possible.
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## Hello World
 

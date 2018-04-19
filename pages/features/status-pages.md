@@ -1,7 +1,8 @@
 ---
 title: Status Pages
 caption: Handle Exceptions and Customize Status Pages
-section: Features
+category: features
+toc: false
 permalink: /features/status-pages.html
 feature:
     artifact: io.ktor:ktor-server-core:$ktor_version

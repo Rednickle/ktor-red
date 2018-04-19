@@ -1,6 +1,7 @@
 ---
 title: Sockets
-section: Clients
+category: clients
+toc: false
 permalink: /clients/raw-sockets.html
 caption: Raw Sockets  
 ---

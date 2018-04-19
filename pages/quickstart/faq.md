@@ -1,7 +1,8 @@
 ---
 title: FAQ
 caption: Frequently Asked Questions 
-section: Quick Start
+category: quickstart
+toc: true
 permalink: /quickstart/faq.html
 priority: 100
 redirect_from:
@@ -13,11 +14,6 @@ In this section, we provide answers to the questions you frequently ask us.
 Can't find an answer for your question? Head over our #ktor [Kotlin Slack](http://slack.kotlinlang.org/){: target="_blank" rel="noopener"} channel,
 and we will try to help you!
 {: .note}
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## What is the proper way to pronounce ktor?
 {: #pronounce }

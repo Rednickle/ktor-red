@@ -1,6 +1,7 @@
 ---
 title: Application
-section: Servers
+category: servers
+toc: true 
 permalink: /servers/application.html
 caption: What is an Application? 
 priority: 0
@@ -13,11 +14,6 @@ composed by [modules](#modules) with the application logic, that install [featur
 Ktor also provides functionality to [handle raw sockets](/servers/raw-sockets.html), but not as part of the Application and
 its pipeline.
 {: .note}
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## Application
 

@@ -1,7 +1,8 @@
 ---
 title: Auto Head Response
 caption: Enable Automatic HEAD Responses
-section: Features
+category: features
+toc: false
 permalink: /features/autoheadresponse.html
 feature:
     artifact: io.ktor:ktor-server-core:$ktor_version

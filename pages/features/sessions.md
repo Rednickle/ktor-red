@@ -1,7 +1,8 @@
 ---
 title: Sessions
 caption: Handle Conversations with Sessions
-section: Features
+category: features
+toc: true
 permalink: /features/sessions.html
 keywords: custom session serializers, custom session transformers, custom session storage providers
 feature:
@@ -24,11 +25,6 @@ to be consumed by other backends or AJAX requests.
 
 They are either client-side when the entire serialized object goes back and forth between the client and the server,
 or server-side when only the session ID is transferred and the associated data is stored entirely in the server. 
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 {% include feature.html %}
 

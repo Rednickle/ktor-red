@@ -1,7 +1,8 @@
 ---
 title: Caching Headers
 caption: Controlling cache headers
-section: Features
+category: features
+toc: false
 permalink: /features/caching-headers.html
 feature:
     artifact: io.ktor:ktor-server-core:$ktor_version

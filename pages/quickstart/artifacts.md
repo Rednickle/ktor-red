@@ -2,7 +2,8 @@
 title: Artifacts
 caption: List of Artifacts  
 permalink: /quickstart/artifacts.html
-section: Quick Start
+category: quickstart
+toc: false
 priority: 1
 redirect_from:
   - /artifacts.html

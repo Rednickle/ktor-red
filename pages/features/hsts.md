@@ -2,7 +2,8 @@
 title: HSTS
 caption: Enable HTTP Strict Transport Security
 keywords: hsts https ssl secure
-section: Features
+category: features
+toc: false
 permalink: /features/hsts.html
 feature:
     artifact: io.ktor:ktor-server-core:$ktor_version

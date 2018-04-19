@@ -1,7 +1,8 @@
 ---
 title: Freemarker
 caption: Using Freemarker Templates
-section: Features
+category: features
+toc: false
 permalink: /features/freemarker.html
 keywords: html
 feature:

@@ -1,18 +1,14 @@
 ---
-title: IntelliJ IDEA 
+title: IntelliJ IDEA
 caption: Setting up Project in IntelliJ IDEA
-section: Quick Start
+category: quickstart
+toc: true 
 permalink: /quickstart/intellij-idea.html
 priority: 0
 ---
 
 This tutorial will guide you from the most basic setup through to a full
 featured setup you can use to start developing your app.
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## Prerequisites
 

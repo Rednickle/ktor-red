@@ -1,7 +1,8 @@
 ---
 title: ForwardedHeaderSupport
 caption: ForwardedHeaderSupport and XForwardedHeaderSupport
-section: Features
+category: features
+toc: true
 permalink: /features/forward-headers.html
 feature:
     artifact: io.ktor:ktor-server-core:$ktor_version
@@ -18,11 +19,6 @@ request when it's behind a proxy.
 Only install these features if you have a reverse proxy supporting these headers serving your requests.
 In other cases, a client will be able to manipulate these headers.
 {: .note.security}
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 {% include feature.html %}
 

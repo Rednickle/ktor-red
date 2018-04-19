@@ -1,6 +1,7 @@
 ---
 title: Http Client
-section: Clients
+category: clients
+toc: true
 permalink: /clients/http-client.html
 caption: Http Client 
 ---
@@ -13,11 +14,6 @@ This client supports several [configurable engines](#engines), and has its own s
 The main functionality is available through the `io.ktor:ktor-client-core:$ktor_version` artifact.
 And each engine, is provided in [separate artifacts](#engines).
 {: .note.artifact }
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## Simple requests
 

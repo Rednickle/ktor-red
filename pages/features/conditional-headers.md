@@ -1,7 +1,8 @@
 ---
 title: Conditional Headers
 caption: Easy '304 Not Modified' Responses
-section: Features
+category: features
+toc: false
 permalink: /features/conditional-headers.html
 keywords: etag last-modified 
 feature:

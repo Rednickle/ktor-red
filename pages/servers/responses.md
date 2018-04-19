@@ -1,7 +1,8 @@
 ---
 title: Responses
 caption: Generating HTTP Responses  
-section: Servers
+category: servers
+toc: true
 permalink: /servers/responses.html
 priority: 900
 ---
@@ -12,11 +13,6 @@ That `call` contains a property called `response` that allows you to emit the re
 
 Also, the call itself has some useful convenience properties and methods 
 that interact with the response.
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## Context
 {: #context}

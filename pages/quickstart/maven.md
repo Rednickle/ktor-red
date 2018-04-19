@@ -1,18 +1,14 @@
 ---
 title: Maven
 caption: Setting up a Maven Build
-section: Quick Start
+category: quickstart
+toc: true
 permalink: /quickstart/maven.html
 priority: 0
 ---
 
 In this guide, we will show you how to create a Maven `pom.xml` file
 and how to configure it to support Ktor.
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## Basic Kotlin `pom.xml` file (without Ktor)
 {: #initial }

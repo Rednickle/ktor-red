@@ -1,7 +1,8 @@
 ---
 title: Partial Content
 caption: Streaming Movies and Other Content   
-section: Features
+category: features
+toc: false
 permalink: /features/partial-content.html
 feature:
     artifact: io.ktor:ktor-server-core:$ktor_version

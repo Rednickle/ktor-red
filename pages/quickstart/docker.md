@@ -1,7 +1,8 @@
 ---
 title: Docker
 caption: Creating Docker Container
-section: Quick Start
+category: quickstart
+toc: true
 permalink: /quickstart/docker.html
 priority: 0
 ---
@@ -15,11 +16,6 @@ Publishing a Ktor application to docker is very easy and only takes a few steps:
 * A JAR packaging tool
 
 In this page we will guide you through creating a docker image and publishing an application to it.
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ### Package an application using Gradle
 

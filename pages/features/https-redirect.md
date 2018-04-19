@@ -1,7 +1,8 @@
 ---
 title: HttpsRedirect
 caption: Redirect HTTP requests to HTTPS 
-section: Features
+category: features
+toc: false
 permalink: /features/https-redirect.html
 keywords: https ssl
 feature:

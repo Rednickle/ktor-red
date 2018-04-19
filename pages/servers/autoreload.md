@@ -1,7 +1,8 @@
 ---
 title: Autoreload
 caption: Saving Time with Automatic Reloading  
-section: Servers
+category: servers
+toc: true
 permalink: /servers/autoreload.html
 keywords: autoreload watchpaths
 priority: 100
@@ -19,11 +20,6 @@ please stick to JDK 8 for now.
 There is a performance penalty when using auto-reloading. So keep in mind that you should not use
 it in production or when doing benchmarks.
 {: .note.performance}
-
-**Table of contents:**
-
-* TOC
-{:toc}
 
 ## Automatic reloading on class changes
 {: #basics}

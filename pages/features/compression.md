@@ -1,7 +1,8 @@
 ---
 title: Compression
 caption: Enable HTTP Compression Facilities
-section: Features
+category: features
+toc: false
 permalink: /features/compression.html
 feature:
     artifact: io.ktor:ktor-server-core:$ktor_version

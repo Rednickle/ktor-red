@@ -1,7 +1,8 @@
 ---
 title: Uploads
 caption: Handling HTTP Uploads  
-section: Servers
+category: servers
+toc: false
 keywords: multipart receiving reading files
 permalink: /servers/uploads.html
 priority: 1200
