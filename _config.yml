@@ -5,6 +5,9 @@ header_logo_url: 'assets/images/ktor_logo_white.svg'
 render_toc_on_docs_layout: true
 search: true
 
+# Uncomment for local Docker preview
+#theme: jetbrains-oss-jekyll-theme
+
 plugins:
   - jekyll-remote-theme
   - jekyll-redirect-from
