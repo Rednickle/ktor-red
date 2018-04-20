@@ -3,6 +3,7 @@ title: Html
 category: samples
 permalink: /samples/html.html
 caption: Example of Using Html Builders
+toc: false
 ---
 
 Browse source code on GitHub: [ktor-samples-html](https://github.com/ktorio/ktor/tree/master/ktor-samples/ktor-samples-html)

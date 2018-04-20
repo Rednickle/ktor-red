@@ -3,6 +3,7 @@ title: GSON
 category: samples
 permalink: /samples/gson.html
 caption: Example of Serving JSON using GSON
+toc: false
 ---
 
 Browse source code on GitHub: [ktor-samples-gson](https://github.com/ktorio/ktor/tree/master/ktor-samples/ktor-samples-gson)

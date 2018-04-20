@@ -3,6 +3,7 @@ title: Asynchronous
 category: samples
 permalink: /samples/async.html
 caption: Example of Asynchronous Responses
+toc: false
 ---
 
 Browse source code on GitHub: [ktor-samples-async](https://github.com/ktorio/ktor/tree/master/ktor-samples/ktor-samples-async)

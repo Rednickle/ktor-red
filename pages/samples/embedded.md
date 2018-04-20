@@ -3,6 +3,7 @@ title: Embedded
 category: samples
 permalink: /samples/embedded.html
 caption: Example of Creating an Embedded Application
+toc: false
 ---
 
 Browse source code on GitHub: [ktor-samples-embedded](https://github.com/ktorio/ktor/tree/master/ktor-samples/ktor-samples-embedded)
