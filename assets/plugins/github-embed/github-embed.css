@@ -126,11 +126,14 @@
 
     width: 100%;
 
+    /*
     height: 100%;
+    */
+
+    position: relative;
 
     border: solid 1px #C6CACD;
 
-    position: relative;
 
     box-sizing: border-box;
 }
@@ -206,16 +209,19 @@
 
     width: 100%;
 
+    /*
     height: 100%;
-
     position: absolute;
+    */
 }
 
 .github-embed-frames iframe, .github-embed-frames pre {
     border: 0;
     width: 100%;
+    /*
     height: 100%;
     overflow: auto;
+    */
     margin: 0;
 }
 
@@ -248,9 +254,10 @@
 
     white-space: nowrap;
 
+    /*
     position: absolute;
-
     bottom: 0;
+    */
 
     width: 100%;
 
