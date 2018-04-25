@@ -2,35 +2,35 @@ main:
   - title: Quick Start
     category: quickstart
     url: /quickstart/index.html
-    icon_url: '/assets/images/Asset-1.png'
+    icon_url: '/assets/images/icon_quick-start.svg'
     summary: setting up the environment and starting up
 
   - title: Servers
     category: servers
     url: /servers/index.html
-    icon_url: '/assets/images/Asset-2.png'
+    icon_url: '/assets/images/icon_servers.svg'
     summary: creating web applications and services
 
   - title: Clients
     category: clients
     url: /clients/index.html
-    icon_url: '/assets/images/Asset-3.png'
+    icon_url: '/assets/images/icon_clients.svg'
     summary: connecting to services and applications
 
   - title: Features
     category: features
     url: /features/index.html
-    icon_url: '/assets/images/Asset-4.png'
+    icon_url: '/assets/images/icon_features.svg'
     summary: customizing applications with extensible features
 
   - title: Samples
     category: samples
     url: /samples/index.html
-    icon_url: '/assets/images/Asset-5.png'
+    icon_url: '/assets/images/icon_samples.svg'
     summary: samples and open source projects
 
   - title: Advanced
     category: advanced
     url: /advanced/index.html
-    icon_url: '/assets/images/Asset-6.png'
+    icon_url: '/assets/images/icon_advanced.svg'
     summary: advanced topics and implementation details
