@@ -1,4 +1,4 @@
-remote_theme: JetBrains/oss-site-jekyll-theme
+remote_theme: JetBrains/oss-site-jekyll-theme@2dd5579 # Bump when required
 
 project_name: 'Ktor'
 header_logo_url: 'assets/images/ktor_logo_white.svg'
