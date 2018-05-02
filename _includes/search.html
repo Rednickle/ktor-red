@@ -1,0 +1,17 @@
+<script type="text/javascript">
+    var categoryNames = {
+        {% for item in site.data.navigation.main %}"{{ item.category | json }}": "{{ item.title | json }}",
+        {% endfor %}
+    };
+</script>
+<link rel="stylesheet" href="{{ '/assets/plugins/search/search.css' | relative_url }}" />
+<script type="text/javascript" src="{{ '/assets/plugins/jquery-1.12.3.min.js' | relative_url }}" defer></script>
+<script type="text/javascript" src="{{ '/assets/plugins/search/search.js' | relative_url }}" defer></script>
+<form action="https://www.google.com/search" class="search-box" method="get">
+    <input name="q" id="search-input" type="search" class="input search-box__input" placeholder="Search... (press 's' to focus, or '#' for sections)" data-placeholder-focus="Search... (use '↑', '↓' and '⏎' to select results)" data-placeholder-blur="Search... (press 's' to focus, or '#' for sections)" autocomplete="off">
+    <input type="hidden" name="as_sitesearch" value="ktor.io" />
+    <button class="search-box__button" type="submit">Search</button>
+    <div class="search-results-inline-container">
+        <ul id="search-results-container" class="search-results"></ul>
+    </div>
+</form>
