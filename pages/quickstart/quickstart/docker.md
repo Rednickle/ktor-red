@@ -3,7 +3,9 @@ title: Docker
 caption: Creating Docker Container
 category: quickstart
 toc: true
-permalink: /quickstart/docker.html
+permalink: /quickstart/quickstart/docker.html
+redirect_from:
+  - /quickstart/docker.html
 priority: 0
 ---
 

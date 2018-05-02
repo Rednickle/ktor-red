@@ -3,7 +3,9 @@ title: Gradle
 caption: Setting up a Gradle Build
 category: quickstart
 toc: true
-permalink: /quickstart/gradle.html
+permalink: /quickstart/quickstart/gradle.html
+redirect_from:
+  - /quickstart/gradle.html
 priority: 0
 ---
 
