@@ -26,10 +26,6 @@ You have a [full example using JSON](/clients/http-client/examples.html#example-
     classifiers=",-jvm,-native,-js"
 %}
 
-To use this feature with Kotlin/JS, you need to include the `io.ktor:ktor-client-json-js` artifact.
-{: .note.artifact }
-
-
 ## Serializers
 
 The `JsonFeature` has a default serializer(implicitly obtained or by calling `defaultSerializer()`)
@@ -79,9 +75,6 @@ val client = HttpClient(HttpClientEngine) {
     }
 }
 ```
-
-To use this feature, you need to include `io.ktor:ktor-client-serialization-jvm` artifact on the JVM and `io.ktor:ktor-client-serialization-native` on iOS.
-{: .note.artifact }
 
 {% include 
     mpp_feature.html
