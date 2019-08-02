@@ -19,7 +19,7 @@ val client = HttpClient(HttpClientEngine) {
 
 You have a [full example using JSON](/clients/http-client/examples.html#example-json).
 
-{% include 
+{% include
     mpp_feature.html
     targets="common,jvm,native,js"
     base="ktor-client-json"
@@ -28,7 +28,6 @@ You have a [full example using JSON](/clients/http-client/examples.html#example-
 
 To use this feature with Kotlin/JS, you need to include the `io.ktor:ktor-client-json-js` artifact.
 {: .note.artifact }
-
 
 ## Serializers
 
@@ -80,10 +79,13 @@ val client = HttpClient(HttpClientEngine) {
 }
 ```
 
+<<<<<<< HEAD
 To use this feature, you need to include `io.ktor:ktor-client-serialization-jvm` artifact on the JVM and `io.ktor:ktor-client-serialization-native` on iOS.
 {: .note.artifact }
 
-{% include 
+=======
+>>>>>>> Add multiplatform dependencies
+{% include
     mpp_feature.html
     targets="common,jvm,native,js"
     base="ktor-client-serialization"
