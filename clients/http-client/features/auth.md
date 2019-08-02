@@ -13,7 +13,12 @@ ktor_version_review: 1.2.0
 
 Ktor client supports authentication out of the box as a standard pluggable feature:
 
-{% include feature.html %}
+{% include 
+    mpp_feature.html
+    targets="common,jvm,native,js"
+    base="ktor-client-auth"
+    classifiers=",-jvm,-native,-js"
+%}
 
 ## Installation
 
