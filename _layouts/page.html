@@ -17,6 +17,10 @@ layout: default
 {% assign section-is-main-page = false %}
 {% endif %}
 
+{% if page.redirect_to %}
+<meta http-equiv="refresh" content="0; URL='{{ page.redirect_to }}'" />
+{% endif %}
+
 <header id="header" class="header">
     <div class="container">
         <div class="branding">
@@ -32,7 +36,7 @@ layout: default
         <ol class="breadcrumb" style="font-size: 1.3em;">
             <li><a class="link" href="/">Home</a></li>
             {% for section in site.data.navigation.main %}
-                {% if section-title == section.title %}
+            {% if section-title == section.title %}
                 <li><strong><a class="link" href="{{ section.url | prepend: site.baseurl }}">{{ section.title }}</a></strong></li>
                 {% else %}
                 <li><a class="link" href="{{ section.url | prepend: site.baseurl }}">{{ section.title }}</a></li>
