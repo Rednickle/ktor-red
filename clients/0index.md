@@ -5,6 +5,8 @@ permalink: /clients/index.html
 children: /clients/http-client/
 caption: Http Client
 ktor_version_review: 1.2.3
+redirect_from:
+  - /clients/http-client.html
 ---
 
 {::options toc_levels="1..2" /}
