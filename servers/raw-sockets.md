@@ -40,7 +40,7 @@ val tcpSocketBuilder = aSocket(selector).tcp()
 ```
 
 Once you have a `socket` open by either [binding](#server) or [connecting](#client) the builder,
-you can read from or to write to the socket, by opening read/write channels:
+you can read from or write to the socket, by opening read/write channels:
 
 ```kotlin
 val input : ByteReadChannel  = socket.openReadChannel()
