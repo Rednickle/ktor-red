@@ -174,7 +174,7 @@ Routing, like other features, is normally installed like this:
 install(Routing) { }
 ```
 
-But there is an easy method to register and start using it, that also installs it if it is already registered:
+But there is an easy method to register and start using it, that also installs it if it is not already registered:
 
 ```kotlin
 routing { }
