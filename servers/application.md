@@ -98,4 +98,4 @@ In this case, the class name is `MainKt` in the `com.example.myapp` package, and
 - [Application calls](/servers/calls.html)
 - [Application lifecycle explanation](/servers/lifecycle.html)
 - [Application configuration](/servers/configuration.html)
-- [Pipelines exlained](/advanced/pipeline)
+- [Pipelines explained](/advanced/pipeline)
