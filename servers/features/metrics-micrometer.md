@@ -28,9 +28,9 @@ of concurrent http requests to the server. There are no tags for this metric.
 
 ### `ktor.http.server.requests`
 This [timer](https://micrometer.io/docs/concepts#_timers) measures the time of 
-each request. This feature provides the follwing tags for this timer:
+each request. This feature provides the following tags for this timer:
 - `address`: `<host>:<port>` of the url requested by the client
-- `method`: the http methog (e.g. `GET` or `POST`)
+- `method`: the http method (e.g. `GET` or `POST`)
 - `route`: the ktor route handling the requests path (e.g. 
            `/vehicles/{id}/tires/{tire}` for the path 
            `/vehicles/23847/tires/frontright`).
