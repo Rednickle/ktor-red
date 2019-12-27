@@ -138,11 +138,24 @@ heroku open
 
 In this case, it will open: https://demo-demo-12345.herokuapp.com/
 
+If you encountered:
+```
+remote:  !     ERROR: Failed to run Gradle!
+remote:        It looks like your project does not contain a 'stage' task, which Heroku needs in order
+remote:        to build your app.
+```
+It probably means that Heroku doesn't know how to build your app and you have to set it manually. For example, if you used [shadowJar](https://github.com/johnrengelman/shadow) you have to set it using:
+```
+> heroku config:set GRADLE_TASK="shadowJar"
+Setting GRADLE_TASK and restarting ⬢ demo-demo-12345... done, v4
+GRADLE_TASK: shadowJar
+```
+
 Remember that Heroku sets an environment variable called `PORT` which you have to bind to instead of
 a fixed port.<br/>
 When using embeddedServer you will have to use `System.getenv`, while when using `application.conf` you will
 have to set `ktor.deployment.port = ${PORT}`.<br/>
 Check out the page about
-[using environment variables in the configuration](http://127.0.0.1:4000/servers/configuration.html#environment-variables)
+[using environment variables in the configuration](/servers/configuration.html#environment-variables)
 for more information.
 {: .note}
