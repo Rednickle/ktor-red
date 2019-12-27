@@ -5,7 +5,7 @@ category: clients
 permalink: /clients/http-client/call/responses.html
 redirect_from:
 - /clients/http-client/calls/responses.html
-ktor_version_review: 1.2.0
+ktor_version_review: 1.3.0
 ---
 
 ## Receiving the body of a response
@@ -68,3 +68,19 @@ You can also get the additional response information such as its status, headers
 * `val vary: List<String>? = response.vary()`
 * `val contentLength: Int? = response.contentLength()`
 * `val setCookie: List<Cookie> = response.setCookie()`
+
+Please note that receiving an HttpResponse instance usually returns a persisted (in-memory) instance so it doesn't fit well for receving large responses and streaming data. Use HttpStatement instead for that purpose.
+{: .note }
+
+### The `HttpStatement` class
+
+HttpStatement represents a prepared statement that can be executed later (possibly multiple times).
+
+```kotlin
+client.get<HttpStatement>("/message/get").execute { response ->
+    showMessage(response.receive<String>())
+}
+```
+
+Note that a `response` provided to execute lambda is not persisted so `HttpStatement` with `execute()` can be used for streaming data and receving large responses.
+

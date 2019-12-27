@@ -72,24 +72,14 @@ We cannot live only on *get* requests, Ktor allows you to build complex requests
 
 {: #call-method }
 
-The HttpClient `call` method, returns an `HttpClientCall` and allows you to perform simple untyped requests.
-
-You can read the content using `response: HttpResponse`.
-For further information, check out the [receiving content using HttpResponse](/clients/http-client/call/responses.html) section.
-
-```kotlin
-val call = client.call("http://127.0.0.1:8080/") {
-    method = HttpMethod.Get
-}
-println(call.response.receive<String>())
-```
+The HttpClient `call` method is deprecated and will be removed. Use the request method instead.
 
 ### The `request` method
 
 {: #request-method }
 
 In addition to call, there is a `request` method for performing a typed request,
-[receiving a specific type](/clients/http-client/call/responses.html#receive) like String, HttpResponse, or an arbitrary class.
+[receiving a specific type](/clients/http-client/call/responses.html#receive) like String, HttpResponse, HttpStatement or an arbitrary class.
 You have to specify the URL and the method when building the request.
 
 ```kotlin
