@@ -5,7 +5,7 @@ category: servers
 permalink: /servers/raw-sockets.html
 ---
 
-In addition to HTTP handling for the [server](/servers/application.html) and the [client](/clients/http-client.html), Ktor supports client and server, TCP and UDP raw sockets.
+In addition to HTTP handling for the [server](/servers/application.html) and the [client](/clients/index.html), Ktor supports client and server, TCP and UDP raw sockets.
 It exposes a suspending API that uses NIO under the hoods.
 
 **Table of contents:**
