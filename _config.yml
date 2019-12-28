@@ -8,7 +8,7 @@ description: "Ktor"
 url: http://ktor.io
 
 ktor_version: 1.2.6
-ktor_version_eap: 1.3.0-rc
+ktor_version_eap: 1.3.0-rc2
 kotlin_version: 1.3.60
 api_ktor_io: https://api.ktor.io/1.2.6
 
