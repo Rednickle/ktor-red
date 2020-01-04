@@ -256,7 +256,7 @@ client.post<Unit> {
 }
 ```
 
-Alternatively(using the integrated `JsonSerializer`):
+Alternatively (using the integrated `JsonSerializer`):
 
 ```kotlin
 val json = io.ktor.client.features.json.defaultSerializer()
@@ -266,7 +266,7 @@ client.post<Unit>() {
 }
 ```
 
-Or using Jackson(JVM only):
+Or using Jackson (JVM only):
 
 ```kotlin
 val json = jacksonObjectMapper()
