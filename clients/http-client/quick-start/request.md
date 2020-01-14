@@ -4,7 +4,7 @@ caption: Preparing the request
 category: clients
 permalink: /clients/http-client/quick-start/requests.html
 redirect_from:
-- /clients/http-client/calls/requests.html
+- /clients/http-client/call/requests.html
 ktor_version_review: 1.3.0
 ---
 
@@ -107,7 +107,7 @@ You can check the standard available [HttpClient build extension methods](https:
 ### Customize method
 
 In addition to call, there is a `request` method for performing a typed request,
-[receiving a specific type](/clients/http-client/call/responses.html#receive) like String, HttpResponse, or an arbitrary class.
+[receiving a specific type](/clients/http-client/quick-start/responses.html#receive) like String, HttpResponse, or an arbitrary class.
 You have to specify the URL and the method when building the request.
 
 ```kotlin
