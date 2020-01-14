@@ -339,6 +339,7 @@ General switches and parameters:
 | `-port=`        | `ktor.deployment.port`                 | `80`                  | Bound port |
 | `-watch=`       | `ktor.deployment.watch`                | `[]`                  | Package paths to watch for reloading |
 |                 | `ktor.application.id`                  | `Application`         | Application Identifier used for logging |
+|                 | `ktor.deployment.rootPath`             | `/`                   | Servlet context path |
 |                 | `ktor.deployment.callGroupSize`        | `parallelism`         | Event group size running application code |
 |                 | `ktor.deployment.connectionGroupSize`  | `parallelism / 2 + 1` | Event group size accepting connections |
 |                 | `ktor.deployment.workerGroupSize`      | `parallelism / 2 + 1` | Event group size for processing connections, parsing messages and doing engine's internal work |
