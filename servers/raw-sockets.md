@@ -95,7 +95,7 @@ fun main(args: Array<String>) {
                         val line = input.readUTF8Line()
                         
                         println("${socket.remoteAddress}: $line")
-                        output.writeBytes("$line\r\n")
+                        output.write("$line\r\n")
                     }
                 } catch (e: Throwable) {
                     e.printStackTrace()
@@ -153,7 +153,7 @@ fun main(args: Array<String>) {
         val input = socket.openReadChannel()
         val output = socket.openWriteChannel(autoFlush = true)
 
-        output.writeBytes("hello\r\n")
+        output.write("hello\r\n")
         val response = input.readUTF8Line()
         println("Server said: '$response'")
     }
