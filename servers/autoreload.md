@@ -11,8 +11,8 @@ During development, it is important to have a fast feedback loop cycle.
 Often, restarting the server can take some time, so Ktor provides a basic auto-reload facility that
 reloads your Application classes.
 
-Autoreload [*doesn't* work in Java 9](https://github.com/ktorio/ktor/issues/359). If you want to use it,
-please stick to **JDK 8** for now.
+Autoreload is experimental under JDK9+. If it doesn't work, feel free to [open an issue](https://github.com/ktorio/ktor/issues/new/choose) and 
+please stick to **JDK 8** in this case.
 {: .note }
 {: #java9 }
 
