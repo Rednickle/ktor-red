@@ -82,8 +82,6 @@ val client = HttpClient(HttpClientEngine) {
 To use this feature, you need to include `io.ktor:ktor-client-serialization-jvm` artifact on the JVM and `io.ktor:ktor-client-serialization-native` on iOS.
 {: .note.artifact }
 
-Add multiplatform dependencies
-
 {% include
     mpp_feature.html
     targets="common,jvm,native,js"
