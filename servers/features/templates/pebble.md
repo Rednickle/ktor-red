@@ -38,20 +38,24 @@ This loader will look for the template files on the classpath in the "templates"
 
 A basic template looks like this:
 
+{% raw %}
 ```html
 <html>
+<h2>Hello, {{ user.name }}!</h2>
 
-<p>Hello, {{ user }}</p>
-<h1>{{ title }}</h1>
-
+Your email address is {{ user.email }}
 </html>
 ```
+{% endraw %}
 
 With that template in `resources/templates` it is accessible elsewhere in the the application
 using the `call.respond()` method:
 
 ```kotlin
-    get("/{...}") {
-        call.respond(PebbleContent("hello.html", mapOf("user" to "Anonymous", "title" to "This is Pebble calling!")))
-    }
+data class User(val name: String, val email: String)
+
+get("/") {
+    val user = User("user name", "user@example.com")
+	 call.respond(PebbleContent("hello.html", mapOf("user" to user)))
+}
 ```

@@ -39,8 +39,10 @@ With that template in `resources/templates` it is accessible elsewhere in the th
 using the `call.respond()` method:
 
 ```kotlin
-    get("/{...}") {
-        val user = User("user name", "user@example.com")
-        call.respond(FreeMarkerContent("index.ftl", mapOf("user" to user), "e"))
-    }
+data class User(val name: String, val email: String)
+
+get("/") {
+	val user = User("user name", "user@example.com")
+	call.respond(FreeMarkerContent("hello.ftl", mapOf("user" to user)))
+}
 ```

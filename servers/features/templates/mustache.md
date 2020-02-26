@@ -27,20 +27,24 @@ This MustacheFactory sets up Mustache to look for the template files on the clas
 
 {% include feature.html %}
 
+{% raw %}
 ```html
 <html>
-
 <h1>Hello {{ user.name }}</h1>
 
+Your email address is {{ user.email }}
 </html>
 ```
+{% endraw %}
 
 With that template in `resources/templates` it is accessible elsewhere in the the application
 using the `call.respond()` method:
 
 ```kotlin
-    get("/{...}") {
-        val user = User("user name", "user@example.com")
-        call.respond(MustacheContent("todos.hbs", mapOf("user" to user)))
-    }
+data class User(val name: String, val email: String)
+
+get("/") {
+    val user = User("user name", "user@example.com")
+    call.respond(MustacheContent("hello.hbs", mapOf("user" to user)))
+}
 ```
